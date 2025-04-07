@@ -1,0 +1,4 @@
+pypyodbc
+requests
+Flask
+flask-cors
