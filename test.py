@@ -4,17 +4,16 @@ import time
 
 # API Hosting Configuration
 API_HOSTS = {
-    "tblSO3": "http://10.2.4.40:5000/api/data",
+    "tblAPI": "http://10.2.4.40:5000/api/data",
 }
 
 # Database Connection Settings
-DRIVER_NAME = 'SQL Server'
-SERVER_NAME = '122.248.215.5,2918'
-DATABASE_NAME = 'lvpacmes1'
-USERNAME = 'your_username'
-PASSWORD = 'your_password'
-USERNAME = 'vitx_Lucas'  # If using SQL Auth
-PASSWORD = '$ViTrox$Lucas'
+DRIVER_NAME = 'SQL Server'          # Name of the database driver
+SERVER_NAME = '192.168.1.100,710'   # Server name or IP address of the database server
+DATABASE_NAME = 'apitesting'        # Name of the specific database you want to connect to
+USERNAME = 'your_username'          # Your database username
+PASSWORD = 'your_password'          # Your database password
+
 
 # Connection String
 connection_string = f"""
