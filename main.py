@@ -56,7 +56,7 @@ data = {
             "cc": "pacs",
             "wo": "2509000002",
             "so": "SO-00001",
-            "area": "UNIT 1300",
+            "area": "UNIT 130000000",
             "line": "DOOSAN 5-AXIS",
             "pn": "430000-N567-R07",
             "dsc": "2",

@@ -9,12 +9,12 @@ API_HOSTS = {
 
 # Database Connection Settings
 DRIVER_NAME = 'SQL Server'
-SERVER_NAME = '10.0.17.51,49609'
-DATABASE_NAME = 'pac_test'
+SERVER_NAME = '122.248.215.5,2918'
+DATABASE_NAME = 'lvpacmes1'
 USERNAME = 'your_username'
 PASSWORD = 'your_password'
-USERNAME = 'sa'  # If using SQL Auth
-PASSWORD = '$ViTrox$'
+USERNAME = 'vitx_Lucas'  # If using SQL Auth
+PASSWORD = '$ViTrox$Lucas'
 
 # Connection String
 connection_string = f"""
